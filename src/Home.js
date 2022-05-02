@@ -88,7 +88,7 @@ function Home() {
                 type="text"
                 class="form-control"
                 id="exampleFormcontrol"
-                placeholder="Enter Surname"
+                placeholder="Please Enter Surname"
                 value={formData.surname}
                 onChange={(e) =>
                   setFormData({ ...formData, surname: e.target.value })
@@ -100,7 +100,7 @@ function Home() {
                 type="text"
                 class="form-control"
                 id="exampleFormcontrol"
-                placeholder="Enter Position"
+                placeholder="Please Enter Position"
                 value={formData.position}
                 onChange={(e) =>
                   setFormData({ ...formData, position: e.target.value })
