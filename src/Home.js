@@ -36,7 +36,12 @@ function Home() {
       surname: "",
       position: "",
     });
-    getEmployee(); // After deleting, fetch the remaining data
+    if (!formData){
+      return null;
+
+    }else {
+      getEmployee(); // After deleting, fetch the remaining data
+    }
   };
 
   return (
